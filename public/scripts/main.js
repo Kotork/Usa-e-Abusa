@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    var owl = $('.owl-carousel');
+    var owlMain = $('.owl-carousel');
     /* Start Plugins */ 
-    owl.owlCarousel({ // https://owlcarousel2.github.io/OwlCarousel2/
+    owlMain.owlCarousel({ // https://owlcarousel2.github.io/OwlCarousel2/
         loop: true,
         margin: 10,
         autoHeight: true,
@@ -15,22 +15,22 @@ $(document).ready(function(){
     });
 
     // Listeners
-    owl.on('changed.owl.carousel', (e) => {        
+    owlMain.on('changed.owl.carousel', (e) => {        
         switch (e.page.index) {
             case 0: // COVID
-                $('#owl-btn').attr('href', '#');
+                $('#owl-btn').attr('href', '#sectionInicio');
                 break;
             case 1: // EPI
-                $('#owl-btn').attr('href', '#');
+                $('#owl-btn').attr('href', '#sectionEPI');
                 break;
-            case 2: // Conselhos
+            case 2: // Recomendações
                 $('#owl-btn').attr('href', '#');
                 break;
             case 3: // O Movimento
-                $('#owl-btn').attr('href', '#');
+                $('#owl-btn').attr('href', '#sectionMovimento');
                 break;
             default:
-                $('#owl-btn').attr('href', '#');
+                $('#owl-btn').attr('href', '#sectionInicio');
                 break;
         }        
     });

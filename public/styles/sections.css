@@ -25,3 +25,39 @@
 }
 
 /* FIM SECTION SINTOMAS */
+
+/* SECTION TRANSMISSAO */
+
+#sectionTransmissao .row:nth-child(1) {
+    padding-top: 15rem;
+}
+
+#sectionTransmissao .row:nth-child(2) {
+    padding-top: 10rem;
+}
+
+/* FIM SECTION TRANSMISSAO */
+
+/* SECTION EPI */
+
+#sectionEPI .row:nth-child(1) {
+    padding-top: 15rem;
+}
+
+#sectionEPI .row:nth-child(2) {
+    padding-top: 10rem;
+}
+
+/* FIM SECTION EPI */
+
+/* SECTION MOVIMENTO */
+
+#sectionMovimento .row:nth-child(1) {
+    padding-top: 15rem;
+}
+
+#sectionMovimento .row:nth-child(2) {
+    padding-top: 10rem;
+}
+
+/* FIM SECTION MOVIMENTO */
