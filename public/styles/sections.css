@@ -1,0 +1,15 @@
+/* SECTION INICIO */
+
+#sectionInicio .row:nth-child(1) {
+    padding-top: 15rem;
+}
+
+#sectionInicio .row:nth-child(2) {
+    padding-top: 10rem;
+}
+
+#sectionInicio .row:nth-child(3) {
+    padding-top: 15rem;
+}
+
+/* FIM SECTION INICIO */

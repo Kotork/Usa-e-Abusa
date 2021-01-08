@@ -6,11 +6,34 @@
 html {
     font-size: 62.5%;        
     scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 body {
     color: #fff;
-    background-color: #38558C;
+    background-color: #38558C;    
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.section {
+    height: 100vh;
 }
 
 .logo{
