@@ -3,9 +3,9 @@ const express = require('express');
 
 const app  = express();
 
-const port = 3000
+const PORT = process.env.PORT || 3000
 
-// Static Files
+// Middleware to serve Static Files
 app.use(express.static('public'));
 //app.use('/styles', express.static(__dirname + 'public/styles'));
 //app.use('/scripts', express.static(__dirname + 'public/scripts'));
@@ -34,6 +34,6 @@ app.get('*', (req, res) => {
     res.send("Error! Page not found");
 });
 
-app.listen(port, () => {
-    console.info(`Listening on port ${port}`);
+app.listen(PORT, () => {
+    console.info(`Listening on port ${PORT}`);
 });
