@@ -90,11 +90,17 @@ h4 {
 }
 
 .btn-primary {    
-    color: #304F77;
-    background-color: #fff;
-    border-color:#fff;
+    color: #fff;
+    background-color: #04A777;
+    border-color:#04A777;
     font-weight: 700; /* BOLD */
     font-size: 2rem;
     letter-spacing: 0.2rem;
+}
+
+.btn-primary:hover{
+    transform: scale(1.1);
+    background-color: #027351;
+    border-color:#027351;
 }
 /* FIM BOTÕES */
