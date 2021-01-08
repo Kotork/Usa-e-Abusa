@@ -1,6 +1,8 @@
 {
   "name": "usa-e-abusa",
-  "engines": "14.x",
+  "engines": {
+    "node": "14.x"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
