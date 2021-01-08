@@ -19,7 +19,59 @@ body {
     margin-right: 1.5rem;
 }
 
+/* NAVBAR */
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
     font-size: 1.6rem;
 }
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.6rem;
+}
+/* FIM NAVBAR */
+
+/* SLIDESHOW */
+.section-slideshow {
+    position: relative;
+    background-color: transparent;
+    margin-top: 350px;
+    width: 25vw;
+}
+
+.owl-btn {
+    margin-top: 25px;
+    margin-right: -25px;    
+    float: right;
+}
+
+.section-slideshow h2 {
+    background-color: transparent;
+    margin-bottom: 35px;
+    font-size: 5rem;
+}
+
+.section-slideshow p {
+    background-color: transparent;
+    margin-left: 50px;
+    font-size: 1.6rem;
+}
+/* FIM SLIDESHOW */
+
+/* BOTÕES */
+.btn {
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary {    
+    color: #304F77;
+    background-color: #fff;
+    border-color:#fff;
+    font-weight: 700; /* BOLD */
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+/* FIM BOTÕES */
