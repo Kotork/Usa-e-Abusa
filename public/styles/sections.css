@@ -15,7 +15,6 @@
 /* FIM SECTION INICIO */
 
 /* SECTION SINTOMAS */
-
 #sectionSintomas .row:nth-child(1) {
     padding-top: 15rem;
 }
@@ -24,6 +23,61 @@
     padding-top: 10rem;
 }
 
+.round {
+    position: relative;
+    width: 50rem;
+    height: 50rem;
+    padding: 10rem;
+    border-radius: 50rem;
+    border-style: dashed;
+}
+
+.inside-round {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    padding: 2rem;
+    border-radius: 50rem;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.inside-round img {
+    transform: scale(1.8);
+}
+
+.inside-round:nth-child(2) {
+    top: -5rem;
+    left: 20rem;
+}
+.inside-round:nth-child(3) {
+    top: 3rem;
+    left: 2rem;
+}
+.inside-round:nth-child(4) {
+    top: 3rem;
+    left: 38rem;
+}
+.inside-round:nth-child(5) {
+    top: 20rem;
+    left: -5rem;
+}
+.inside-round:nth-child(6) {
+    top: 20rem;
+    left: 45rem;
+}
+.inside-round:nth-child(7) {
+    top: 37rem;
+    left: 2rem;
+}
+.inside-round:nth-child(8) {
+    top: 37rem;
+    left: 38rem;
+}
+.inside-round:nth-child(9) {
+    top: 45rem;
+    left: 20rem;
+}
 /* FIM SECTION SINTOMAS */
 
 /* SECTION TRANSMISSAO */
