@@ -34,6 +34,7 @@ h4 {
 
 .section {
     height: 100vh;
+    min-width: 80rem;
 }
 
 .logo{
@@ -62,7 +63,7 @@ h4 {
 .section-slideshow {
     position: relative;
     background-color: transparent;
-    margin-top: 350px;
+    padding-top: 350px;
     width: 25vw;
 }
 
