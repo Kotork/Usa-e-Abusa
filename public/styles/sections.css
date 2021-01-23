@@ -1,7 +1,7 @@
 /* SECTION INICIO */
 
 #sectionInicio .row:nth-child(1) {
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
 #sectionInicio .row:nth-child(2) {
@@ -9,14 +9,14 @@
 }
 
 #sectionInicio .row:nth-child(3) {
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
 /* FIM SECTION INICIO */
 
 /* SECTION SINTOMAS */
 #sectionSintomas .row:nth-child(1) {
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
 #sectionSintomas .row:nth-child(2) {
@@ -83,7 +83,7 @@
 /* SECTION TRANSMISSAO */
 
 #sectionTransmissao .row:nth-child(1) {
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
 #sectionTransmissao .row:nth-child(2) {
@@ -107,7 +107,7 @@
 /* SECTION MOVIMENTO */
 
 #sectionMovimento .row:nth-child(1) {
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
 #sectionMovimento .row:nth-child(2) {
