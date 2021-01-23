@@ -28,7 +28,16 @@ h4 {
     font-size: 2.5rem;
 }
 
+h6 {
+    font-size: 1.6rem;
+}
+
 /* EXTRAS */
+.w-25 {
+    width: 25vw;
+    height: auto;
+}
+
 .w-50 {
     width: 50vw;
     height: auto;
@@ -97,6 +106,16 @@ h4 {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
+.btn-round {
+    padding: 2rem;
+    border-radius: 50rem;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    width: 8rem;
+    height: 8rem;
+    border-color:#F5F5F5;
+}
+
 .btn-primary {    
     color: #fff;
     background-color: #04A777;
@@ -112,6 +131,16 @@ h4 {
     border-color:#027351;
 }
 /* FIM BOTÕES */
+
+/* VIRUS */
+.virus-1 {
+    fill:#57bc76;
+}
+
+.virus-2 {
+    fill: #F5F5F5;
+}
+/* FIM VIRUS */
 
 /* FOOTER */
 .footer-brand {
