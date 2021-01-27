@@ -18,6 +18,21 @@
     padding: 25px;    
 }
 
+.navbar-toggler {    
+    padding: 1rem;
+    border-radius: 50rem;
+    border: .3rem solid var(--azul-escuro) !important;
+}
+
+.navbar-toggler-icon {    
+    width: 2.5rem;
+    height: 2.5rem;    
+}
+
+.navbar-toggler-icon > svg > path {
+    fill: var(--azul-escuro);
+}
+
 .nav-menu-left,
 .nav-menu-left a, 
 .nav-menu-left h1 {
@@ -62,7 +77,7 @@
 
 .nav-link {
     color: var(--azul-escuro) !important;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 /* FIM MENU */

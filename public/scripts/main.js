@@ -54,3 +54,12 @@ function handleSintoma(e) {
     let text = $(e).children().attr('alt');    
     $('#sintoma-text').html(text);
 }
+
+function changeNavBGRadius (e) {
+    console.log(e);
+    if (!$(e).hasClass('collapsed')) {
+        $('nav .container-fluid').first().css('border-radius', '2rem');
+    } else {
+        $('nav .container-fluid').first().css('border-radius', '20rem');
+    }
+}
