@@ -1,3 +1,4 @@
+var a = null;
 $(document).ready(function(){
     var owlMain = $('.owl-carousel');
     /* Start Plugins */ 
@@ -35,3 +36,13 @@ $(document).ready(function(){
         }        
     });
 });
+
+function changeText(e) {
+    // Remove cor do botão atual e esconde o texto atual
+    $(`#${ $('.virus-1').attr('data-text') }`).addClass('d-none');
+    $('.virus-1').addClass('virus-2').removeClass('virus-1');
+
+    // Adicona Cor ao botão clicado e mostra o texto
+    $(e).addClass('virus-1').removeClass('virus-2');
+    $(`#${ $(e).attr('data-text') }`).removeClass('d-none');    
+}

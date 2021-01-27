@@ -17,7 +17,7 @@ html {
 
 body {
     color: #fff;
-    background-color: #38558C;    
+    background-color: #304F77;    
 }
 
 p {
@@ -33,11 +33,6 @@ h6 {
 }
 
 /* EXTRAS */
-.w-25 {
-    width: 25vw;
-    height: auto;
-}
-
 .w-50 {
     width: 50vw;
     height: auto;
@@ -130,6 +125,12 @@ h6 {
     background-color: #027351;
     border-color:#027351;
 }
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #027351;
+    border-color:#027351;
+}
 /* FIM BOTÕES */
 
 /* VIRUS */
@@ -139,6 +140,14 @@ h6 {
 
 .virus-2 {
     fill: #F5F5F5;
+}
+
+@media only screen and (max-width:768px) {
+    .virus-btn-sm-fix {
+        flex-direction: row !important;
+        justify-content: space-around;
+        padding-bottom: 3rem;
+    }
 }
 /* FIM VIRUS */
 
@@ -161,3 +170,14 @@ footer div .row:nth-child(2) {
     padding-top: 2.5rem;
 }
 /* FIM FOOTER */
+
+/* VIDEO */
+.video {
+    height: 60vh;
+    min-height: 40rem;
+}
+.video * {
+    width: 100%;
+    height: 100%;
+}
+/* FIM VIDEO */
