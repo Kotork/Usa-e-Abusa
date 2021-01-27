@@ -1,3 +1,11 @@
+:root {
+    --verde-claro: #04A777;
+    --verde-escuro: #027351;
+    --azul-escuro: #304F77;
+    --azul-claro: #B4CCE4;
+    --cor-texto: #F5F5F5;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +24,8 @@ html {
 }
 
 body {
-    color: #fff;
-    background-color: #304F77;    
+    color: white;
+    background-color: var(--azul-escuro);    
 }
 
 p {
@@ -51,17 +59,17 @@ h6 {
 }
 
 .bg-footer {
-    background-color: #B4CCE4;
+    background-color: var(--azul-claro);
 }
 
 /* NAVBAR */
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+    color: white;
     font-size: 1.6rem;
 }
 
 .navbar-brand {
-    color: #fff;
+    color: white;
     font-size: 1.6rem;
 }
 /* FIM NAVBAR */
@@ -108,13 +116,12 @@ h6 {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     width: 8rem;
     height: 8rem;
-    border-color:#F5F5F5;
 }
 
 .btn-primary {    
-    color: #fff;
-    background-color: #04A777;
-    border-color:#04A777;
+    color: white;
+    background-color: var(--verde-claro);
+    border-color:var(--verde-claro);
     font-weight: 700; /* BOLD */
     font-size: 2rem;
     letter-spacing: 0.2rem;
@@ -122,24 +129,24 @@ h6 {
 
 .btn-primary:hover{
     transform: scale(1.1);
-    background-color: #027351;
-    border-color:#027351;
+    background-color: var(--verde-escuro);
+    border-color:var(--verde-escuro);
 }
 
 .btn-primary:focus {
-    color: #fff;
-    background-color: #027351;
-    border-color:#027351;
+    color: white;
+    background-color: var(--verde-escuro);
+    border-color:var(--verde-escuro);
 }
 /* FIM BOTÕES */
 
 /* VIRUS */
 .virus-1 {
-    fill:#57bc76;
+    fill:var(--verde-claro);
 }
 
 .virus-2 {
-    fill: #F5F5F5;
+    fill: var(--cor-texto);
 }
 
 @media only screen and (max-width:768px) {
@@ -153,7 +160,7 @@ h6 {
 
 /* FOOTER */
 .footer-brand {
-    color: #38558C;
+    color: var(--azul-escuro);
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 1rem;
@@ -163,7 +170,7 @@ h6 {
 }
 
 footer p {
-    color: #38558C;
+    color: var(--azul-escuro);
 }
 
 footer div .row:nth-child(2) {

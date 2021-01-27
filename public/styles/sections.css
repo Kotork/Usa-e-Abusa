@@ -1,3 +1,11 @@
+:root {
+    --verde-claro: #04A777;
+    --verde-escuro: #027351;
+    --azul-escuro: #304F77;
+    --azul-claro: #B4CCE4;
+    --cor-texto: #F5F5F5;
+}
+
 /* SECTION INICIO */
 
 #sectionInicio .row:nth-child(1) {
@@ -23,6 +31,22 @@
     padding-top: 10rem;
 }
 
+.sintomas-text-box {
+    position: absolute;
+    bottom: 9rem;
+    left: 14rem;
+    width: 22rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sintomas-text {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
 .round {
     position: relative;
     width: 50rem;
@@ -30,6 +54,12 @@
     padding: 10rem;
     border-radius: 50rem;
     border-style: dashed;
+}
+
+.round .active {
+    background-color: var(--verde-claro);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .inside-round {
@@ -40,6 +70,12 @@
     border-radius: 50rem;
     background-color: #F5F5F5;
     overflow: hidden;
+}
+
+.inside-round:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all .2s ease-in-out;
 }
 
 .inside-round img {

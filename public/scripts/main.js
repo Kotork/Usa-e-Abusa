@@ -46,3 +46,11 @@ function changeText(e) {
     $(e).addClass('virus-1').removeClass('virus-2');
     $(`#${ $(e).attr('data-text') }`).removeClass('d-none');    
 }
+
+function handleSintoma(e) {
+    $('.inside-round').removeClass('active');
+    $(e).addClass('active');
+
+    let text = $(e).children().attr('alt');    
+    $('#sintoma-text').html(text);
+}

@@ -1,8 +1,21 @@
+:root {
+    --verde-claro: #04A777;
+    --verde-escuro: #027351;
+    --azul-escuro: #304F77;
+    --azul-claro: #B4CCE4;
+    --cor-texto: #F5F5F5;
+}
+
 /* MENU */
+.navbar > .container-fluid {
+    background-color: var(--azul-claro);
+    border-radius: 20rem;    
+}
+
 .nav-bar {
     position: relative;
     background-color: transparent;
-    padding: 25px;
+    padding: 25px;    
 }
 
 .nav-menu-left,
@@ -18,7 +31,13 @@
 
 .nav-menu-left .logo img{
     width: 50px;
-    height: auto;
+    height: auto;    
+}
+
+.navbar-brand {
+    color: var(--azul-escuro) !important;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .nav-menu-right {
@@ -38,8 +57,12 @@
 }
 
 .nav-menu-item a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.6rem;
+    text-decoration: none;    
+}
+
+.nav-link {
+    color: var(--azul-escuro) !important;
+    font-size: 2rem;
+    font-weight: 700;
 }
 /* FIM MENU */
