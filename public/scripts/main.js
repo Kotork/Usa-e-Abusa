@@ -1,4 +1,6 @@
-var a = null;
+var $modalMascara = $('#modalMascara');
+
+
 $(document).ready(function(){
     var owlMain = $('.owl-main, .owl-trasmicao');
 
@@ -63,3 +65,18 @@ function changeNavBGRadius (e) {
         $('nav .container-fluid').first().css('border-radius', '20rem');
     }
 }
+
+/* MODAL */
+function changeMascaraContent(e, content) {
+    /* Troca o botão ativo */
+    $('.mascara.active').removeClass('active');
+    $(e).addClass('active');
+
+    /* Troca titulo */
+    $('.mascaraTitle:not(.d-none)').addClass('d-none');
+    $(`#mascaraTitle${content}`).removeClass('d-none');
+
+    $('.mascara-content:not(.d-none)').addClass('d-none');
+    $('.mascara-content').filter(`[data-content="${content}"]`).removeClass('d-none')    
+}
+/* FIM MODAL */

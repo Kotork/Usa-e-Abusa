@@ -87,6 +87,14 @@ table td:first-child {
     background-color: var(--azul-claro);
 }
 
+.fill-verde-claro {
+    fill: var(--verde-claro) !important;
+}
+
+.fill-verde-escuro {
+    fill: var(--verde-escuro) !important;
+}
+
 .fill-azul-escuro {
     fill: var(--azul-escuro) !important;
 }
@@ -169,6 +177,15 @@ table td:first-child {
     color: white;
     background-color: var(--verde-claro);
     border-color:var(--verde-claro);
+    font-weight: 700; /* BOLD */
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.btn-active {    
+    color: white;
+    background-color: var(--rosa);
+    border-color:var(--rosa);
     font-weight: 700; /* BOLD */
     font-size: 2rem;
     letter-spacing: 0.2rem;
