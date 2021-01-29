@@ -3,6 +3,7 @@
     --verde-escuro: #027351;
     --azul-escuro: #304F77;
     --azul-claro: #B4CCE4;
+    --rosa: #D30C7B;
     --cor-texto: #F5F5F5;
 }
 
@@ -40,10 +41,23 @@ h6 {
     font-size: 1.6rem;
 }
 
+ul li {
+    font-size: 1.6rem;
+    margin-left: 4rem;
+}
+
 /* EXTRAS */
 .w-50 {
     width: 50vw;
     height: auto;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.c-rosa {
+    color: var(--rosa) !important;
 }
 /* FIM EXTRAS */
 
@@ -125,6 +139,16 @@ h6 {
     font-weight: 700; /* BOLD */
     font-size: 2rem;
     letter-spacing: 0.2rem;
+}
+
+.btn-rosa {    
+    color: white;
+    background-color: var(--rosa);
+    border-color:var(--rosa);
+    font-weight: 700; /* BOLD */
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    margin-top: 4rem;
 }
 
 .btn-primary:hover{

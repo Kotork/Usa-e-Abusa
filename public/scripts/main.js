@@ -55,8 +55,7 @@ function handleSintoma(e) {
     $('#sintoma-text').html(text);
 }
 
-function changeNavBGRadius (e) {
-    console.log(e);
+function changeNavBGRadius (e) {    
     if (!$(e).hasClass('collapsed')) {
         $('nav .container-fluid').first().css('border-radius', '2rem');
     } else {
