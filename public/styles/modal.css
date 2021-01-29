@@ -11,6 +11,10 @@
     background-color: var(--azul-escuro);
 }
 
+.modal-body {
+    min-height: 30rem;
+}
+
 .modal-footer {
     background-color: var(--azul-claro);
 }

@@ -1,6 +1,7 @@
 var a = null;
 $(document).ready(function(){
-    var owlMain = $('.owl-carousel');
+    var owlMain = $('.owl-main, .owl-trasmicao');
+
     /* Start Plugins */ 
     owlMain.owlCarousel({ // https://owlcarousel2.github.io/OwlCarousel2/
         loop: true,

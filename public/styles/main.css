@@ -46,6 +46,29 @@ ul li {
     margin-left: 4rem;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+table tr {
+    line-height: 3.5rem
+}
+
+table th {
+    font-size: 2rem;
+}
+
+table td {
+    font-size: 1.6rem;
+    padding-left: 2rem;
+}
+
+table th:first-child,
+table td:first-child {
+    padding-right: 5rem;
+}
+
 /* EXTRAS */
 .w-50 {
     width: 50vw;
@@ -59,7 +82,21 @@ ul li {
 .c-rosa {
     color: var(--rosa) !important;
 }
+
+.bg-azul-claro {
+    background-color: var(--azul-claro);
+}
+
+.fill-azul-escuro {
+    fill: var(--azul-escuro) !important;
+}
 /* FIM EXTRAS */
+
+/* OWL PLUGIN FIX */
+.owl-img .owl-dots {
+    display: none;
+}
+/* FIM OWL PLUGIN FIX */
 
 .section {
     height: 100vh;
@@ -70,10 +107,6 @@ ul li {
     width: 50px;
     height: auto;
     margin-right: 1.5rem;
-}
-
-.bg-footer {
-    background-color: var(--azul-claro);
 }
 
 /* NAVBAR */
@@ -188,7 +221,8 @@ ul li {
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 1rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-weight: 700;
     text-decoration: none;
     white-space: nowrap;
 }
@@ -199,6 +233,58 @@ footer p {
 
 footer div .row:nth-child(2) {
     padding-top: 2.5rem;
+}
+
+.footer-info span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--azul-escuro);
+}
+
+.footer-table {
+    margin-top: 2rem
+}
+
+.footer-table tr {
+    line-height: 5rem;
+}
+
+.footer-table td:first-child {
+    text-align: end;
+    padding-right: 2rem;    
+}
+
+.footer-table a {
+    text-decoration: none;
+    color: var(--azul-escuro);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.footer-table td:last-child:hover {
+    transform: scale(1.1);
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 0.25);
+    transition: all .2s ease-in-out;
+}
+
+.footer-social svg {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 3rem;
+}
+
+.footer-social svg:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+.footer-partners a {
+    margin-left: 3rem;
+}
+
+.footer-partners img {
+    height: 5rem;
+    width: auto;
 }
 /* FIM FOOTER */
 
