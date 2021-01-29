@@ -10,7 +10,7 @@
 /* SECTION INICIO */
 
 #sectionInicio .row:nth-child(1) {
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
 #sectionInicio .row:nth-child(2) {
@@ -25,7 +25,7 @@
 
 /* SECTION SINTOMAS */
 #sectionSintomas .row:nth-child(1) {
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
 #sectionSintomas .row:nth-child(2) {
@@ -120,7 +120,7 @@
 /* SECTION TRANSMISSAO */
 
 #sectionTransmissao .row:nth-child(1) {
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
 #sectionTransmissao .row:nth-child(2) {
@@ -132,7 +132,7 @@
 /* SECTION EPI */
 
 #sectionEPI .row:nth-child(1) {
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
 #sectionEPI .row:nth-child(2) {
@@ -144,7 +144,7 @@
 /* SECTION MOVIMENTO */
 
 #sectionMovimento .row:nth-child(1) {
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
 #sectionMovimento .row:nth-child(2) {

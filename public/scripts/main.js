@@ -1,6 +1,5 @@
 var $modalMascara = $('#modalMascara');
 
-
 $(document).ready(function(){
     var owlMain = $('.owl-main, .owl-trasmicao');
 
@@ -15,7 +14,8 @@ $(document).ready(function(){
         autoplayHoverPause: true,
         mouseDrag: true,
         touchDrag: true,
-        items: 1
+        items: 1,
+        responsiveClass: true
     });
 
     // Listeners
