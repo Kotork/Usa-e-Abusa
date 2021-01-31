@@ -70,11 +70,6 @@ table td:first-child {
 }
 
 /* EXTRAS */
-.w-50 {
-    width: 50vw;
-    height: auto;
-}
-
 .text-justify {
     text-align: justify;
 }
@@ -108,7 +103,7 @@ table td:first-child {
 
 .section {
     height: 100vh;
-    min-width: 80rem;
+    /*min-width: 80rem;*/
 }
 
 .logo{
@@ -133,19 +128,18 @@ table td:first-child {
 .section-slideshow {
     position: relative;
     background-color: transparent;
-    padding-top: 350px;
-    width: 25vw;
+    padding-top: 30rem;
 }
 
 .owl-btn {
-    margin-top: 25px;
-    margin-right: -25px;    
+    margin-top: 2.5rem;
+    margin-right: -2.5rem;    
     float: right;
 }
 
 .section-slideshow h2 {
     background-color: transparent;
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
     font-size: 5rem;
 }
 
@@ -215,6 +209,10 @@ table td:first-child {
 /* FIM BOTÕES */
 
 /* VIRUS */
+.virus-1, .virus-2 {
+    cursor: pointer;
+}
+
 .virus-1 {
     fill:var(--verde-claro);
 }
@@ -223,8 +221,22 @@ table td:first-child {
     fill: var(--cor-texto);
 }
 
-@media only screen and (max-width:768px) {
-    .virus-btn-sm-fix {
+@media (min-width: 992px) {
+    .virus-btn-fix svg {
+        width: 12rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .virus-btn-fix svg {
+        width: 12rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .virus-btn-fix {
         flex-direction: row !important;
         justify-content: space-around;
         padding-bottom: 3rem;
@@ -317,3 +329,33 @@ footer div .row:nth-child(2) {
     height: 100%;
 }
 /* FIM VIDEO */
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 40%;
+    }
+}
