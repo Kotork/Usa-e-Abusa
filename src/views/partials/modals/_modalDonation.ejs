@@ -1,0 +1,53 @@
+<!-- Modal -->
+<div class="modal fade" id="modalDonation" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-fullscreen-xxl-down modal-dialog-centered">
+        <div class="modal-content">         
+            <div class="modal-header">
+                <h4 class="modal-title">Ajuda a causa</h4>
+                <button type="button" class="btn-close pe-5" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <ul class="nav nav-tabs" id="donationTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="moneyTab" data-bs-toggle="tab" href="#tabMoney" role="tab" aria-controls="home" aria-selected="true">Dinheiro</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="productTab" data-bs-toggle="tab" href="#tabProducts" role="tab" aria-controls="profile" aria-selected="false">Produtos</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="laborTab" data-bs-toggle="tab" href="#tabVoluntary" role="tab" aria-controls="voluntary" aria-selected="false">Voluntariado</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <form action="">
+                            <div class="row p-5">
+                                <div class="col-12 col-sm-6 col-md-4">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="helpFormName" placeholder="João Lopes">
+                                        <label for="helpFormName">Nome</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="helpFormEmail" placeholder="joao.lopes@dominio.pt">
+                                        <label for="helpFormEmail">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="helpFormContact" placeholder="931 456 789">
+                                        <label for="helpFormContact">Contacto</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="tab-pane fade show active" id="tabMoney" role="tabpanel" aria-labelledby="home-tab">...</div>
+                        <div class="tab-pane fade" id="tabProducts" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                        <div class="tab-pane fade" id="tabVoluntary" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</div>

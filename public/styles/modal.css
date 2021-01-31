@@ -1,12 +1,3 @@
-:root {
-    --verde-claro: #04A777;
-    --verde-escuro: #027351;
-    --azul-escuro: #304F77;
-    --azul-claro: #B4CCE4;
-    --rosa: #D30C7B;
-    --cor-texto: #F5F5F5;
-}
-
 .modal-content {
     background-color: var(--azul-escuro);
 }
