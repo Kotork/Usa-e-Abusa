@@ -28,7 +28,7 @@ $(document).ready(function(){
                 $('#owl-btn').attr('href', '#sectionEPI');
                 break;
             case 2: // Recomendações
-                $('#owl-btn').attr('href', '#');
+                $('#owl-btn').attr('href', 'https://covid19.min-saude.pt');
                 break;
             case 3: // O Movimento
                 $('#owl-btn').attr('href', '#sectionMovimento');
@@ -38,6 +38,12 @@ $(document).ready(function(){
                 break;
         }        
     });
+
+    $('.nav-item').on('click', function (e) {
+        if ($('#navbarCollapsed').hasClass('show')) {
+            $('#collapseMenu').trigger('click');
+        }
+    })
 });
 
 function changeText(e) {
@@ -58,6 +64,7 @@ function handleSintoma(e) {
     $('#sintoma-text').html(text);
 }
 
+/* NAVBAR */
 function changeNavBGRadius (e) {    
     if (!$(e).hasClass('collapsed')) {
         $('nav .container-fluid').first().css('border-radius', '2rem');
@@ -65,6 +72,7 @@ function changeNavBGRadius (e) {
         $('nav .container-fluid').first().css('border-radius', '20rem');
     }
 }
+/* FIM NAVBAR */
 
 /* MODAL */
 function changeMascaraContent(e, content) {
