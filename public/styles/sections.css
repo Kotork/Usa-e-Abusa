@@ -156,7 +156,7 @@
 
 @media (min-width: 1200px) {
     .section-slideshow {        
-        min-height: 70rem;
+        height: 70rem;
     }
 
     #sectionInicio,
@@ -177,7 +177,7 @@
 @media (min-width: 992px) and (max-width: 1200px) {
     .section-slideshow {
         padding-top: 25rem;
-        min-height: 60rem;
+        height: 60rem;
     }
 
     #sectionInicio,
