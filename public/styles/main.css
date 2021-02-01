@@ -221,6 +221,11 @@ table td:first-child {
     fill: var(--cor-texto);
 }
 
+.virus-2:hover {
+    fill:var(--verde-claro);
+    transition: all .2s ease-in-out;
+}
+
 @media (min-width: 992px) {
     .virus-btn-fix svg {
         width: 12rem !important;

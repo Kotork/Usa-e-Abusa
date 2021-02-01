@@ -8,7 +8,6 @@ $(document).ready(function(){
         loop: true,
         margin: 10,
         autoHeight: true,
-        //nav: true, // Sao as setas
         autoplay: true,
         autoplayTimeout: 3000, 
         autoplayHoverPause: true,
@@ -38,6 +37,13 @@ $(document).ready(function(){
                 break;
         }        
     });
+
+    /* Popper plugin + bootstrap */
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    /* Fim Popper plugin + bootstrap */
 
     $('.nav-item').on('click', function (e) {
         if ($('#navbarCollapsed').hasClass('show')) {
@@ -85,6 +91,6 @@ function changeMascaraContent(e, content) {
     $(`#mascaraTitle${content}`).removeClass('d-none');
 
     $('.mascara-content:not(.d-none)').addClass('d-none');
-    $('.mascara-content').filter(`[data-content="${content}"]`).removeClass('d-none')    
+    $('.mascara-content').filter(`[data-content="${content}"]`).removeClass('d-none');   
 }
 /* FIM MODAL */
