@@ -363,4 +363,12 @@ footer div .row:nth-child(2) {
     html {
         font-size: 40%;
     }
+
+    #footer .container{
+        width: 80%;
+    }
+
+    #footer .footer-info:last-child {
+        margin-top: 2rem;
+    }
 }

@@ -1,10 +1,14 @@
 # usa e abusa
 
-Descrição do site
+Projeto de Laboratório Multimédia 1 do curso Comunicação e Design Multimédia da Escola Superior de Educação de Coimbra
 
 What we used
     - EJS
     - Bootstrap 5.0.0 Beta
+    - Jquery
+    - Plugins
+        - Owl Caroussel
+        - Popper
     - Node
         - Express
 

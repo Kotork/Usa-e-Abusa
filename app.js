@@ -17,7 +17,7 @@ const homeRouter = require('./src/routes/home');
 app.use('/', homeRouter);
 
 app.get('*', (req, res) => {
-    res.send("Error! Page not found");
+    res.send("Andas perdido, volta atrás");
 });
 
 app.listen(PORT, () => {
