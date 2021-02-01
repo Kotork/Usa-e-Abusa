@@ -207,48 +207,21 @@
     top: 540rem;
     left: 59vw;
 }
-
-#virus31 {
-    top: 535rem;
-    left: 8vw;
-}
-
-#virus32 {
-    top: 550rem;
-    left: 48vw;
-}
-
-#virus33 {
-    top: 585rem;
-    left: 32vw;
-}
-
-#virus34 {
-    top: 584rem;
-    left: 80vw;
-}
 /* FIM POSITIONS */
 
 @media (min-width: 1400px) and (max-width: 1800px) {
     #virus28,
     #virus29,
-    #virus30,
-    #virus31,
-    #virus32,
-    #virus33,
-    #virus34 {
+    #virus30 {
         display: none;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
+    #virus27,
     #virus28,
     #virus29,
-    #virus30,
-    #virus31,
-    #virus32,
-    #virus33,
-    #virus34 {
+    #virus30 {
         display: none;
     }
 }
@@ -257,11 +230,7 @@
     #virus27,
     #virus28,
     #virus29,
-    #virus30,
-    #virus31,
-    #virus32,
-    #virus33,
-    #virus34 {
+    #virus30 {
         display: none;
     }
 }
@@ -269,28 +238,21 @@
 @media (min-width: 768px) and (max-width: 992px) {
     #virus28,
     #virus29,
-    #virus30,
-    #virus31,
-    #virus32,
-    #virus33,
-    #virus34 {
+    #virus30 {
         display: none;
     }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-    #virus30,
-    #virus31,
-    #virus32,
-    #virus33,
-    #virus34 {
+    #virus29,
+    #virus30 {
         display: none;
     }
 }
 
 @media (max-width: 576px) {
-    #virus33,
-    #virus34 {
+    #virus29,
+    #virus30 {
         display: none;
     }
 }

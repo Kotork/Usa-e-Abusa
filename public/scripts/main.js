@@ -52,6 +52,15 @@ $(document).ready(function(){
     })
 });
 
+$('#modalVideo, #modalMascara').on('hide.bs.modal', function (e) {
+    let $iframe = $('iframe');
+
+    if( $iframe ) {
+        let iframeSrc = $iframe.attr('src');
+        $iframe.attr('src', iframeSrc);     
+    }
+});
+
 function changeText(e) {
     // Remove cor do botão atual e esconde o texto atual
     $(`#${ $('.virus-1').attr('data-text') }`).addClass('d-none');

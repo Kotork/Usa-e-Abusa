@@ -154,7 +154,27 @@
 
 /* FIM SECTION MOVIMENTO */
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px){
+    .section-slideshow {        
+        height: 70rem;
+    }
+
+    #sectionInicio,
+    #sectionSintomas {
+        height: 80rem;
+    }
+
+    #sectionEPI,
+    #sectionMovimento {
+        height: 70rem;
+    }
+    
+    #sectionTransmissao {
+        height: 55rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
     .section-slideshow {        
         height: 70rem;
     }
@@ -256,12 +276,12 @@
     }
 
     #sectionInicio,
-    #sectionTransmissao {
+    #sectionTransmissao,
+    #sectionMovimento {
         height: 80rem;
     }
     
-    #sectionEPI,
-    #sectionMovimento {
+    #sectionEPI {
         height: 70rem;
     }
 
