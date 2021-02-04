@@ -52,8 +52,8 @@ $(document).ready(function(){
     })
 });
 
-$('#modalVideo, #modalMascara').on('hide.bs.modal', function (e) {
-    let $iframe = $('iframe');
+$('#modalVideo').on('hide.bs.modal', function (e) {
+    let $iframe = $('#iVideo');
 
     if( $iframe ) {
         let iframeSrc = $iframe.attr('src');
